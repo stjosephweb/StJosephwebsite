@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box ;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    line-height: 1.6;
+    
+}
+
+header {
+    text-decoration: chocolate;
+    color: chocolate;
+    text-align: center;
+    padding: 20px;
+}
+
+nav {
+    background-color: #333;
+    text-align: center;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+   color: gold;
+}
+
+img {
+    width: 100%;
+    height: 100% ;
+    border-style: solid;
+}
+
+form {
+    max-width: 600px;
+    margin: auto;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+p {
+    color: #000;
+    font-weight: bolder;
+    font-size: 22px;
+    padding: 30px;
+    padding-bottom: 45px;
+}
+
+#special {
+    color: black;
+    padding: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+
+h1 {
+    color: white 2px 2px 5px rgb(255, 255, 255);;
+    font-weight: 900;
+    font-style: italic;
+    padding: 10px;
+    letter-spacing: 1px;
+}
+h2 {
+    color: black;
+    font-weight: 900;
+    font-style: italic;
+    padding: 15px;
+    padding-left: 45px;
+    letter-spacing: 1px;
+}
+
+button {
+    padding: 10px 20px;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: gold;
+    color: white ;
+    text-align: center;
+    padding: 2px;
+}
+
+p.footer {
+    color: white;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+p.contact {
+    padding: 25px;
+    color: black;
+    font-weight: bolder;
+    padding-left: 45px;
+    text-shadow:
+                -1px -1px 0 white,
+                 1px -1px 0 white,
+                -1px  1px 0 white,
+                 1px  1px 0 white;
+}
+
+p.Location {
+    padding-bottom: 20px;
+    font-weight: 900;
+    color: black;
+    text-shadow:
+                -1px -1px 0 white,
+                 1px -1px 0 white,
+                -1px  1px 0 white,
+                 1px  1px 0 white;
+}
+
+p.about {
+    padding-bottom: 90px;
+    padding-top: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    font-weight: 900;
+    color: white;
+    text-shadow: 
+                -2px -2px 0 black,
+                 2px -2px 0 black,
+                -2px  2px 0 black,
+                 2px  2px 0 black,
+                -3px  0px 0 black,
+                 3px  0px 0 black,
+                 0px -3px 0 black,
+                 0px  3px 0 black;
+
+}
+
+
+
+
