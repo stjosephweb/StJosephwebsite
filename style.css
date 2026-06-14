@@ -18,7 +18,7 @@ header {
     text-decoration: chocolate;
     color: chocolate;
     text-align: center;
-    padding: 10px;
+    padding: 5px;
 }
 
 nav {
@@ -75,8 +75,7 @@ p {
 h1 {
     color: white 2px 2px 5px rgb(255, 255, 255);;
     font-weight: 900;
-    font-style: italic;
-    padding: 10px;
+    padding: 5px;
     letter-spacing: 1px;
 }
 h2 {
