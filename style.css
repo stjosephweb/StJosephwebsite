@@ -65,7 +65,7 @@ textarea {
 
 p {
     color: #000;
-    font-weight: bolder;
+    font-weight: bold;
     font-size: 22px;
     padding: 30px;
     padding-bottom: 45px;
@@ -74,7 +74,7 @@ p {
 #special {
     color: black;
     padding: 5px;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: font-family: Arial, sans-serif ;
     
 }
 
