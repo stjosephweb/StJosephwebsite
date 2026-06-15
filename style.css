@@ -101,10 +101,11 @@ section {
     margin-bottom: 20px;
 }
 footer {
-    background-color: #003366;
+    background-color: #003B73;
     color: white ;
     text-align: center;
-    padding: 15px;
+    padding: 40px 20px;
+    margin-top: 50px;
 }
 
 @media (max-width: 768px) {
@@ -121,9 +122,11 @@ footer {
 }
 
 p.footer {
-    color: white;
-    font-size: 20px;
-    font-family: 'Times New Roman', Times, serif;
+    background-color: #003B73;
+    color: white ;
+    text-align: center;
+    padding: 40px 20px;
+    margin-top: 50px;
 }
 
 p.contact {
