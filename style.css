@@ -105,7 +105,7 @@ footer {
     color: white ;
     text-align: center;
     padding: 5px 5px;
-    margin-top: 50px;
+    margin-top: 5px;
 }
 
 @media (max-width: 768px) {
@@ -126,7 +126,7 @@ p.footer {
     color: white ;
     text-align: center;
     padding: 5px 5px;
-    margin-top: 50px;
+    margin-top: 5px;
 }
 
 p.contact {
