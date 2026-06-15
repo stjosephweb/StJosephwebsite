@@ -29,10 +29,11 @@ nav {
     background-color: #003366;
     padding: 15px;
     text-align: center;
+    dispay: block !important;
 }
 
 nav a {
-    color: white;
+    color: white !important;
     text-decoration: none;
     margin: 0 15px;
     font-size: 18px;
