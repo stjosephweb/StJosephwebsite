@@ -98,14 +98,13 @@ main {
     margin: auto;
 }
 section {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 footer {
     background-color: #003B73;
     color: white ;
     text-align: center;
-    padding: 5px 5px;
-    margin-top: 5px;
+    padding: 5px;
 }
 
 @media (max-width: 768px) {
@@ -125,8 +124,7 @@ p.footer {
     background-color: #003B73;
     color: white ;
     text-align: center;
-    padding: 5px 5px;
-    margin-top: 5px;
+    padding: 5px;
 }
 
 p.contact {
