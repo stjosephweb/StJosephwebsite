@@ -169,6 +169,17 @@ p.about {
                  1px  1px 0 white;
 }
 
+p.mass {
+    padding-bottom: 20px;
+    font-weight: 900;
+    color: black;
+    text-shadow:
+                -1px -1px 0 white,
+                 1px -1px 0 white,
+                -1px  1px 0 white,
+                 1px  1px 0 white;
+}
+
 p.projects {
      padding-bottom: 20px;
     font-weight: 900;
