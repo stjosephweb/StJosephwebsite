@@ -90,8 +90,8 @@ h2 {
 h3 {
     color: black;
     font-weight: 900;
-    padding: 12px;
-    padding-left: 20px;
+    padding: 15px;
+    padding-left: 45px;
     letter-spacing: 1px;
 }
 
@@ -170,7 +170,7 @@ p.about {
 }
 
 p.mass {
-    padding-bottom: 5px;
+    padding-bottom: 20px;
     font-weight: 900;
     color: black;
     text-shadow:
