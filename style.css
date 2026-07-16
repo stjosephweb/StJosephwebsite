@@ -107,7 +107,6 @@ nav a{
 
 nav a.active{
     color:#FFD700;
-    border-bottom:3px solid #FFD700;
 }
 
 nav a::after{
