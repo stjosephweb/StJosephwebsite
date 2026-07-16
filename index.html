@@ -1,37 +1,56 @@
-<html>
+<!DOCTYPEhtml>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Church Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <button onclick="welcomeMessage()">Click Me</button>
-    <script src="script.js"></script>
 
-    <header>
-        <h1>St.Joseph Catholic Church</h1>
-    </header>
-    <nav> 
-        <a href="index.html">Home</a>
-        <a href="about.html">About</a>
-        <a href="contact.html">Contact</a>
-        <a href="mass-time.html">Mass Time</a>
-        <a href="church-projects.html">Church projects</a>
+    <header class="hero">
+    <div class="overlay">
+        <h1>St. Joseph Pastoral Zone</h1>
+        <p class="tagline">
+            A welcoming Catholic community devoted to worship,
+            evangelization and service.
+        </p>
+        <div class="hero-buttons">
+            <a href="mass-time.html" class="btn">Mass Times</a>
+            <a href="contact.html" class="btn btn-outline">Contact Us</a>
+        </div>
+    </div>
+</header>
+
+    <nav>
+        <a href="index.html"><i class="fas fa-home"></i> Home</a>
+        <a href="about.html"><i class="fas fa-church"></i> About</a>
+        <a href="contact.html"><i class="fas fa-phone"></i> Contact</a>
+        <a href="mass-time.html"><i class="fas fa-clock"></i> Mass Time</a>
+        <a href="church-projects.html"><i class="fas fa-hand-holding-heart"></i> Projects</a>
     </nav>
 
     <main>
          <section>
             <img src="church-banner.png" alt="Church Banner" class="banner">
         </section>
-        <h2>Welcome to St.Joseph Pastoral Zone</h2>
-        <p id="special">SJPZ is a vibrant Catholic community dedicated to worship, evangelization, and service.</p>
-        <p id="special">Join us every Sunday as we celebrate the Holy Mass and grow together in faith.</p>
+        <section class="welcome-card">
+
+        <h2>Welcome to St. Joseph Pastoral Zone</h2>
+            <p>
+                SJPZ is a vibrant Catholic community dedicated to worship,
+                evangelization and service.
+            </p>
+            <p>
+                Join us every Sunday as we celebrate the Holy Mass
+                and grow together in faith.
+            </p>
+        </section>
         
     </main>
 
@@ -41,9 +60,14 @@
         </a>
 
     <footer>
-        <p>&copy; 2026 St.Joseph Pastoral Zone</p>
+        <h3>St. Joseph Pastoral Zone</h3>
+        <p>Buea Road, Diocese of Kumba</p>
+        <p>📞 +237 654 302 680</p>
+        <p>✉️ st.josephparish2024@gmail.com</p>
+        <p>&copy; 2026 All Rights Reserved.</p>
     </footer>
+
     <script src="script.js"></script>
-    
+
 </body>
 </html>
