@@ -140,6 +140,37 @@ nav a:hover{
     position:relative;
 }
 
+/*Quick Info Section Styling*/
+.quick-info{
+    width:90%;
+    margin:60px auto;
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    flex-wrap:wrap;
+}
+
+.info-card{
+    background:white;
+    width:320px;
+    padding:35px;
+    border-radius:20px;
+    text-align:center;
+    box-shadow:0 12px 30px rgba(0,0,0,.12);
+    transition:.4s;
+}
+
+.info-card i{
+    font-size:45px;
+    color:#D4AF37;
+    margin-bottom:20px;
+}
+
+.info-card:hover{
+    transform:translateY(-10px) scale(1.03);
+    box-shadow:0 18px 40px rgba(0,0,0,.20);
+}
+
 /*Banner Image Styling*/
 .banner {
     width: 100%;
