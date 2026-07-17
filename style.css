@@ -763,7 +763,7 @@ p.projects {
 
 /* PAGE HERO */
 .page-hero{
-    background:url("church-banner.png") center center/cover no-repeat;
+    background:url("background.png") center center/cover no-repeat;
     height:45vh;
     position:relative;
     display:flex;
@@ -836,6 +836,68 @@ p.projects {
 nav a.active{
     color:#FFD700;
     border-bottom:3px solid #FFD700;
+}
+
+/* MASS SCHEDULE */
+.schedule-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+    gap:30px;
+}
+
+.schedule-box{
+    background:white;
+    padding:40px;
+    border-radius:22px;
+    text-align:center;
+    box-shadow:0 12px 30px rgba(0,0,0,.12);
+    transition:.4s;
+}
+
+.schedule-box:hover{
+    transform:translateY(-10px);
+    background:#003366;
+    color:white;
+}
+
+.schedule-box i{
+    font-size:48px;
+    color:#D4AF37;
+    margin-bottom:20px;
+}
+
+.schedule-box h3{
+    margin-bottom:15px;
+}
+
+.schedule-box .time{
+    font-size:24px;
+    font-weight:700;
+    color:#003366;
+}
+
+.schedule-box:hover .time{
+    color:#FFD700;
+}
+
+.mass-note{
+    margin-top:60px;
+    background:white;
+    padding:40px;
+    border-radius:22px;
+    box-shadow:0 12px 30px rgba(0,0,0,.12);
+    text-align:center;
+}
+
+.mass-note h2{
+    color:#003366;
+    margin-bottom:20px;
+}
+
+.mass-note p{
+    color:#555;
+    max-width:700px;
+    margin:auto;
 }
 
 
