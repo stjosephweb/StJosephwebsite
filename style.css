@@ -663,7 +663,7 @@ transform:rotate(360deg);
 
 /*Top Button*/
 #topBtn{
-position:fixed;
+position:fixed; /*Above whatsapp button*/
 bottom:110px;
 right:30px;
 width:55px;
@@ -675,6 +675,7 @@ color:white;
 font-size:20px;
 cursor:pointer;
 display:none;
+z-index:999;
 box-shadow:0 5px 15px rgba(0,0,0,.3);
 }
 
