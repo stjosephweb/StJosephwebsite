@@ -14,6 +14,31 @@ body{
     line-height:1.7;
 }
 
+/*Top Bar Information*/
+.top-bar{
+    background:#00264d;
+    color:white;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:10px 8%;
+    font-size:14px;
+    flex-wrap:wrap;
+}
+
+.top-left,
+.top-right{
+    display:flex;
+    gap:25px;
+    flex-wrap:wrap;
+}
+
+.top-bar span{
+    display:flex;
+    align-items:center;
+    gap:8px;
+}
+
 header {
     background-color: #f4f4f4;
     text-align: center;
@@ -21,6 +46,12 @@ header {
 }
 header h1 {
     color: #003366;
+}
+
+.main-header{
+    background:white;
+    display:flex;
+    align-items:center
 }
 
 /*Hero Section Styling*/
